@@ -1,0 +1,13 @@
+.navbar-img {
+    display: block;
+    width: 50px;
+    height: 150px;
+}
+
+.navbar {
+    height: 40px;
+}
+
+.navbar-title {
+    font-size: 1rem;
+}
