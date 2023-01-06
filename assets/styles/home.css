@@ -1,0 +1,41 @@
+.left-side-home {
+    width: 50%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5;
+
+}
+
+.container-left-home {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 0 0 90% 0;
+
+    width: 150%;
+    height: 100%;
+
+
+    overflow: hidden;
+    position: relative;
+}
+
+.foreground-left-home {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .8;
+    position: absolute;
+}
+
+.title-left-home {
+    z-index: 3;
+    top: 30%;
+    position: absolute;
+    font-size: 1.5rem;
+
+}

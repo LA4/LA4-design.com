@@ -20,4 +20,16 @@ class IndexController extends AbstractController
             'controller_name' => 'IndexController',
         ]);
     }
+    /**
+     * Portfolio page
+     *
+     * @return Response
+     */
+    #[Route('/portfolio', name: 'portfolio')]
+    public function portfolio(): Response
+    {
+        return $this->render('pages/portfolio.html.twig', [
+            'controller_name' => 'IndexController',
+        ]);
+    }
 }
