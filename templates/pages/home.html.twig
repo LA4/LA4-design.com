@@ -4,23 +4,41 @@
 {% endblock %}
 
 {% block body %}
-	<div class=" flex">
-		<aside class="flex left-side-home">
-			<div class="container-left-home flex" style="background-image: url( /assets/images/post_0206.png)">
-				<h3 class="title-left-home">Dessin de premiere page</h3>
-				<span class="foreground-left-home"></span>
-			</div>
-		</aside>
-		<main>
+	<aside class="flex left-side-home">
+		<div class="container-left-home flex" style="background-image: url( /assets/images/post_0206.png)">
+			<h3 class="title-left-home">Bienvenue !</h3>
+			<span class="foreground-left-home"></span>
+		</div>
+	</aside>
 
-			<div class="container flex">
-				<img src="" alt="">
-				<h4>Title</h4>
-				<p>Description</p>
-				<span>
-					date de création</span>
-				<span>date du post</span>
+	<div class="flex flex-end mt-32" ">
+		<main class=" card-position-home">
+			<div class="card">
+				<div class="flex flex-column">
+					<img class="img-thumb" src="" alt="">
+					<span>date de création</span>
+					<span>date du post</span>
+				</div>
+				<div class="flex flex-column card-side">
+					<h4 class="card-title">Title</h4>
+					<p class='card-description'>Description un peut plus longue pour vraiment se rendre compte du truc quoi</p>
+				</div>
 			</div>
 		</main>
 	</div>
+	<div class="flex flex-end mt-32">
+		<main class=" card-position-home-secondary">
+			<div class="card">
+				<div class="flex flex-column">
+					<img class="img-thumb" src="" alt="">
+					<span>date de création</span>
+					<span>date du post</span>
+				</div>
+				<div class="flex flex-column card-side">
+					<h4 class="card-title">Title</h4>
+				</div>
+			</div>
+		</main>
+	</div>
+
 {% endblock %}
