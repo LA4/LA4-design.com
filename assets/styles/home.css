@@ -56,6 +56,7 @@ Aside / img and title
     margin-top: 32px;
     margin-right: 16px;
     padding: 8px;
+    max-width: 50%;
 
     background-color: var(--background-color);
     color: var(--font-color);
