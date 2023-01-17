@@ -46,3 +46,11 @@
     width: 150px;
     height: 150px;
 }
+
+.warning {
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 4px;
+}

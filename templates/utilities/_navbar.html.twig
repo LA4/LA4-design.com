@@ -1,6 +1,6 @@
 <nav class="container navbar flex space-between ">
 	<div>
-		<a class="flex space-between" href="{{path("home")}}">
+		<a class="flex space-between" href="{{path("app_home")}}">
 			<img width="20px" height="25px" src="{{asset("assets/images/Logo_LA4.png")}}" alt=" logo représentant les lettres L A 4 entreméllés en une forme">
 			<h1 class="ml-8 navbar-title">LA4-design.com</h1>
 		</a>
@@ -8,10 +8,10 @@
 	<div>
 		<ul class="flex ">
 			<li class="ml-16">
-				<a href="{{path("home")}}">Acceuil</a>
+				<a href="{{path("app_home")}}">Acceuil</a>
 			</li>
 			<li class="ml-16">
-				<a href="{{path("portfolio")}}">Portfolio</a>
+				<a href="{{path("app_portfolio")}}">Portfolio</a>
 			</li>
 			<li class="ml-16">
 				<a href="#">CV</a>
@@ -26,7 +26,7 @@
 	</div>
 	<div>
 		<small>
-			<a href="#">Connection</a>
+			<a href="{{ path('app_login')}}">Connection</a>
 		</small>
 	</div>
 </nav>

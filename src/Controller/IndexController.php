@@ -14,20 +14,18 @@ class IndexController extends AbstractController
      *
      * @return Response
      */
-    #[Route('/', name: 'home')]
+    #[Route('/', name: 'app_home')]
     public function index(): Response
     {
         
-        return $this->render('pages/home.html.twig', [
-            'controller_name' => 'IndexController',
-        ]);
+        return $this->render('pages/home.html.twig');
     }
     /**
      * Portfolio page
      *
      * @return Response
      */
-    #[Route('/portfolio', name: 'portfolio')]
+    #[Route('/portfolio', name: 'app_portfolio')]
     public function portfolio(): Response
     {
         return $this->render('pages/portfolio.html.twig', [
