@@ -1,0 +1,48 @@
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4px;
+    min-width: 350px;
+    max-width: 600px;
+    margin: 4px auto;
+}
+
+.form_items {
+    display: block;
+    max-width: 200px;
+    height: 25px;
+    padding-left: 6px;
+
+    background-color: #E9EBEC;
+    border-radius: 6px;
+    border: none;
+    box-shadow: inset 0px 0px 4px #2B3337;
+    box-shadow: 0px 1px 2px #2B3337;
+
+}
+
+.form_items:focus {
+    outline-color: #2B3337;
+    padding-left: 6px;
+}
+
+.btn {
+    display: block;
+    min-width: 20px;
+    max-width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    font-weight: bold;
+
+    color: #2B3337;
+    background-color: #FFC14E;
+    border: none;
+    box-shadow: 0px 1px 2px #2B3337;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn:hover {
+    transform: translateX(2px);
+}

@@ -41,6 +41,10 @@
     margin-top: 32px;
 }
 
+.mt-8 {
+    margin-top: 8px;
+}
+
 .img-thumb {
     display: block;
     width: 150px;
